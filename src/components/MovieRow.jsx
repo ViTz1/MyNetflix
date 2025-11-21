@@ -1,3 +1,5 @@
+import MovieCard from "./MovieCard";
+
 export default function MovieRow({ title, movies = [] }) {
 return (
 <div className="my-6">
